@@ -1,31 +1,38 @@
-import React from "react";
-import {
-  StyledHeader,
-  FlexDiv,
-  Search,
-  Img,
-  SearchText,
-  SearchButton,
-  OrderButton1,
-  OrderButton2,
-  TopButton,
-  ModalOverlay,
-  ModalContent,
-  ModalText,
-  ModalTitle,
-  ModalFont,
-} from "./StyledHeader";
-const Header = () => {
+import "./StyledHeader.css";
+function Header() {
   return (
-    <StyledHeader>
-      <div className="logo">Baner</div>
+    <header className="headerer">
+      <h1>PathFinder</h1>
+
       <div className="menu">
-        <div>홈</div>
-        <div>소개</div>
-        <div>포스트</div>
+        <ul>
+          <li>
+            <a href="#">지점</a>
+            <ul>
+              <li>
+                <a href="#">부산대점</a>
+              </li>
+              <li>
+                <a href="#">메이커스페이스점</a>
+              </li>
+              <li>
+                <a href="#">초량점</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">회사소개</a>
+          </li>
+          <li>
+            <a href="#">FAQ</a>
+          </li>
+          <li>
+            <a href="#">입주상담</a>
+          </li>
+        </ul>
       </div>
-    </StyledHeader>
+    </header>
   );
-};
+}
 
 export default Header;
