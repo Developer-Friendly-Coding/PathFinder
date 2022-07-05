@@ -2,7 +2,7 @@
   height: 3vh;
   padding: 3rem;
   color: white;
-  background: teal;
+  background: #8b4f1d;
   font-weight: bold;
   display: flex;
   justify-content: space-between; /*justify-content를 space between으로해서 두개만 만들면 자동으로 양옆으로감 개꿀 ㅋㅋ */
